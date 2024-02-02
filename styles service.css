@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(rose-165819_1280.jpg);
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: reg(0, 0, 0, 0.7);
+}
+
+.logo span{
+
+    color: rgb(238, 56, 11);
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 21px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),  url(pink-324175_1280.jpg);
+}
+
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 400px;
+}
+
+.main .content .carde{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 800px;
+}
+
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.main .content .carde .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+
+
+.main .content .card .right{
+    flex: 0 0 70%;
+}
+
+.main .content .carde .right{
+    flex: 0 0 70%;
+}
+
+
+.main .content .card .right img{
+    height: 400px;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.main .content .carde .right img{
+    height: 400px;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.credit{
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+
+}
+
+.credit .copyright{
+    margin-left: 22px;
+}
+
+.credit .mail{
+    margin-left: 1800px;
+}
+
+
+
+
+
+
